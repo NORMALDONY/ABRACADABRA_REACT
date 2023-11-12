@@ -1,0 +1,163 @@
+.video__media{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	object-fit: cover;
+}
+.intro{	
+	top: 0;
+	left: 0;
+	position: relative;
+	display: flex;
+	align-items: center;
+
+	height: 100vh;
+	width: 100%;
+	margin-top: 80px;
+}
+.intro__text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	position: absolute;
+	height: 100%;
+	z-index: 2;
+	
+	padding-left: clamp(1.375rem, 0.935rem + 2.346vw, 3.75rem);
+	padding-right: clamp(1.375rem, 0.935rem + 2.346vw, 3.75rem);
+}
+.intro__content{
+	width: 100%;
+}
+.intro__text p{
+	color: #fff;
+	font-size: clamp(1.313rem, 1.069rem + 1.296vw, 2.625rem);
+	margin-top: 24px;
+}
+.intro__text h1{
+	margin: 0;
+	font-size: clamp(2rem, 1.583rem + 2.222vw, 4.25rem);
+	color: #fff;
+}
+
+
+
+/* слайд с создателями */
+.img__founders{
+	display: flex;
+	justify-content: space-evenly;
+	z-index: 1;
+	padding-top: 80px;
+}
+.img__founders__1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	height: 100%;
+}
+.img__founders__2{
+	width: 35%;
+	height: 100%;
+}
+.img__founders__1 img{
+	width: 100%;
+	height: 70%;
+}
+.img__founders__2 img{
+	width: 100%;
+	height: auto;
+}
+.img__founders p{
+	font-size: clamp(1.313rem, 1.069rem + 1.296vw, 2.625rem);
+	color: #fff;
+}
+
+
+/* cтудия */
+.studio{
+	display: flex;
+	justify-content: center;
+	z-index: 1;
+	padding-top: 80px;
+}
+.img__studio{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 60%;
+	height: auto;
+}
+.img__tattoo__1{
+	width: 20%;
+	height: auto;
+}
+.img__studio img{
+	width: 100%;
+	height: auto;
+}
+.img__tattoo__1 img{
+	width: 110%;
+	height: auto;
+}
+.studio__text{
+	text-align: center;
+	color: #fff;
+}
+.studio__text p{
+	padding-top: 10px;
+	font-size: clamp(0.75rem, 0.634rem + 0.617vw, 1.375rem);
+}
+.studio__text h1{
+	font-size: clamp(1.313rem, 1.069rem + 1.296vw, 2.625rem);
+}
+
+
+/* команда */
+.team{
+	padding-top: 80px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+.img__team{
+	width: 100%;
+	height: auto;
+}
+.img__team img{
+	width: 100%;
+	height: auto;
+}
+.team__text{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: clamp(0.875rem, 0.667rem + 1.111vw, 2rem);
+	color: #fff;
+}
+.team__text h1{
+	margin: 0;
+	padding: 0px 15px;
+	font-size: clamp(0.875rem, 0.481rem + 2.099vw, 3rem);
+	color: #fff;
+}
+.team__text p{
+	margin: 0;
+	padding: 15px;
+}
+
+.button__meet{
+	display: flex;
+	justify-content: center;
+	padding: 10px 10px;
+}
+@media(max-width:767px){
+	.team{
+		padding-top: 80px;
+		display: flex;
+		flex-direction: column;
+	}
+ }
