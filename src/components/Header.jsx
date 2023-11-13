@@ -1,9 +1,9 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import "../styles/Header.css"
 import LogoABR from "../img/logo_ABR.png";
 import Popup from "./UI/popup/Popup";
 import ButtonLoad from "./UI/buttons/ButtonLoad/ButtonLoad";
-import ButtonsNav from "./UI/buttons/ButtonNav/ButtonNav";
 
 const Header = ()=> {
 	return(
@@ -24,20 +24,20 @@ const Header = ()=> {
 
 						<nav className="header__menu">
 							<ul className="header__list">
-								<li>
-									<ButtonsNav btn={{body: "Главная", href: ""}}/>
+								<li className="header__link">
+									<Link to="/">Главная</Link>
 								</li>
-								<li>
-									<ButtonsNav btn={{body: "Услуги", href: ""}}/>
+								<li className="header__link">
+									<Link to="/services">Услуги</Link>
 								</li>
-								<li>
-									<ButtonsNav btn={{body: "Мастера", href: ""}}/>
+								<li className="header__link">
+									<Link to="/masters">Мастера</Link>
 								</li>
-								<li>
-									<ButtonsNav btn={{body: "Цены", href: ""}}/>
+								<li className="header__link">
+									<Link to="/price">Цены</Link>
 								</li>
-								<li>
-									<ButtonsNav btn={{body: "Курсы", href: ""}}/>
+								<li className="header__link">
+									<Link to="/courses">Курсы</Link>
 								</li>
 								<li>
 									<ButtonLoad btn={{body: "Записаться", href: "#popup"}} />

@@ -72,6 +72,12 @@ header:before{
 	list-style-type: none;
 	margin: 0px 20px 0px 20px;
 }
+.header__link{
+	color: #000;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-decoration: none;
+}
 .content{
 	padding: 100px 0px 0px 0px;
 }
@@ -85,6 +91,7 @@ header:before{
 }
 
 @media(max-width:767px){
+
 	.header__body{
 		height: 60px;
 	}

@@ -9,3 +9,6 @@ html,body{
 a{
 	text-decoration: none;
 }
+.App {
+	margin-top: 200px;
+}
