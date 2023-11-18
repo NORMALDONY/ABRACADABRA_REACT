@@ -4,8 +4,6 @@
 	left: 0;
 	margin: 0;
 }
-
-
 .container{
 	max-width: 100%;
 	margin: 0px auto;
@@ -58,9 +56,6 @@ header:before{
 .header__burger{
 	display: none;
 }
-.header__menu{}
-
-
 .header__list{
 	display: flex;
 	position: relative;
@@ -167,46 +162,6 @@ header:before{
 	transform: rotate(-45deg);
 	bottom: 9px;
  }
- .intro__text{
-	line-height: 280%;
- }
- .img__founders__1{
-align-items: center;
-justify-content: center;
-	width: 90%;
-	height: auto;
- }
- .img__founders__1 img{
-
- }
- .img__founders__2{
-	width: 90%;
- }
- .img__founders{
-	align-items: center;
-	flex-direction: column;
-	padding-top: 40px;
- }
- .button__meet{
-	margin: 10px 20px;
-	padding: 10px 20px;
-	margin: clamp(1.563rem, 1.563rem + 0vw, 1.563rem)
- }
- .footer{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	position: static;
-	background-color: #fff;
-	padding: 50px;
-}
-.footer > div{
-	width: 80%;
-	border-left: #000 0px solid;
-	padding-left: 0px;
-	padding-bottom: 20px;
-}
 }
 @media(max-width:1100px)and (min-width:768px){
 	.header__body{
@@ -283,22 +238,4 @@ justify-content: center;
 	transform: rotate(-45deg);
 	bottom: 9px;
  }
- .intro__text{
-	line-height: 280%;
- }
- .footer{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	position: static;
-	background-color: #fff;
-	padding: 20px;
-}
-.footer > div{
-	width: 20%;
-	border-left: #000 0px solid;
-	padding-left: 0px;
-	padding-bottom: 20px;
-}
 }

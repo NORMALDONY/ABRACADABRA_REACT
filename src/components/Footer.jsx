@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../styles/Footer.css"
+import classes from "../styles/Footer.module.css"
 
 import LogoABR from "../img/logo_ABR.png"
 import Vk from "../img/vk.png"
@@ -8,12 +8,12 @@ import Inst from "../img/inst.png"
 
 const Footer = ()=> {
 	return (
-	<div className="footer">
-		<div className="footer__logo">
-			<img className="logo__img" src={LogoABR} />
-			<div className="footer__logo__text">ABRACADABRA</div>
+	<div className={classes.footer}>
+		<div className={classes.footer__logo}>
+			<img className={classes.logo__img} src={LogoABR} />
+			<div className={classes.footer__logo__text}>ABRACADABRA</div>
 		</div>
-		<div className="footer__contact">
+		<div className={classes.footer__contact}>
 			<h1>Контакты</h1>
 			<ul>
 				<li>
@@ -28,7 +28,7 @@ const Footer = ()=> {
 				</li>
 			</ul>
 			<h1>Социльные сети</h1>
-			<div className="social__logo">
+			<div className={classes.social__logo}>
 				<a href="">
 					<img src={Inst} />
 				</a>
@@ -37,7 +37,7 @@ const Footer = ()=> {
 				</a>
 			</div>
 		</div>
-		<div className="footer_rules">
+		<div className={classes.footer_rules}>
 			<ul>
 				<li>
 					<h1>Все права защищены ABRACADABRA © 2023 Все права принадлежат: "ООО" PUPOK"серия ЛО-1 №228 Лицензия №228228228</h1>

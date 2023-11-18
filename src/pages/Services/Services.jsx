@@ -44,13 +44,13 @@ const Services = ()=> {
 					<ServicesTile 
 								tile={{src: Piercing, 
 								body: "Пирсинг", 
-								href: ""}} 
+								href: "/piercing"}} 
 					/>
 
 					<ServicesTile 
 								tile={{src: Certificate, 
 								body: "Сертификат", 
-								href: ""}} 
+								href: "/certificate"}} 
 					/>
 				</div>
 			</div>

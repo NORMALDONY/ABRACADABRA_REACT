@@ -10,8 +10,11 @@ const TableBody = (props)=> {
 				<td>{props.table.name}</td>
 				<td>{props.table.price}</td>
 				<td>
-					<div>
-						<ButtonLoad btn={{body: "Посмотреть примеры работ", href: ""}}/>
+					<div style={{
+						display: "flex",
+						justifyContent: "center"
+					}}>
+						<ButtonLoad btn={{className: "btn-white",body: "Посмотреть примеры работ", href: ""}}/>
 					</div>
 				</td>
 			</tr>

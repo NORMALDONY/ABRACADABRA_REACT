@@ -1,0 +1,47 @@
+.main-container{
+	height: 700px;
+	width: 700px;
+
+	display: flex;
+	align-items: center;
+}
+.window{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 15px;
+}
+.all-pages-container{
+	height: 100%;
+	display: flex;
+
+	transition: translate;
+	transition-property: transform;
+	transition-duration: 300ms;
+	transition-timing-function: ease-in-out;
+}
+.arrow{
+	cursor: pointer;
+	height: 40px;
+	width: 40px;
+	padding: 30px;
+	user-select: none;
+}
+
+.radio-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.radio-buttons input {
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #4d4d4d;
+  margin: 0 5px;
+}
+
+.radio-buttons input:checked {
+  background-color: #4d4d4d;
+}

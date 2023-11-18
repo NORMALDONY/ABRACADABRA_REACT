@@ -1,10 +1,14 @@
 import React from "react";
 import Master from "../../components/Master";
+import ButtonLoad from "../../components/UI/buttons/ButtonLoad/ButtonLoad";
+
 
 import Yura from "./Yura.jpg"
+import Nastya from "./NastyaS.jpg"
 import Team from "./team.jpg"
 
 import "./Masters.css"
+
 const Masters = ()=> {
 	return (
 		<div className="masters">
@@ -38,6 +42,17 @@ const Masters = ()=> {
 								description: "Юрок — основатель, владелец и старший художник ABRACADABRA. Он опирается на почти двадцатилетний опыт работы в отрасли, татуируя новых клиентов и обучая нашу отобранную вручную команду художников.",
 								link: "",
 								linkText: "",
+								masterButton: <ButtonLoad btn={{body: "Посмотреть работы Юры", href:"/yura"}}/>
+							}}
+						/>
+						<Master 
+							master= {{
+								src: Nastya,
+								name: "Настя",
+								description: "Настя — основатель, владелец и старший художник ABRACADABRA. Он опирается на почти двадцатилетний опыт работы в отрасли, татуируя новых клиентов и обучая нашу отобранную вручную команду художников.",
+								link: "",
+								linkText: "",
+								masterButton: <ButtonLoad btn={{body: "Посмотреть работы Насти", href:"/nastya"}}/>
 							}}
 						/>
 						<Master 
@@ -47,15 +62,7 @@ const Masters = ()=> {
 								description: "Юрок — основатель, владелец и старший художник ABRACADABRA. Он опирается на почти двадцатилетний опыт работы в отрасли, татуируя новых клиентов и обучая нашу отобранную вручную команду художников.",
 								link: "",
 								linkText: "",
-							}}
-						/>
-						<Master 
-							master= {{
-								src: Yura,
-								name: "Юра",
-								description: "Юрок — основатель, владелец и старший художник ABRACADABRA. Он опирается на почти двадцатилетний опыт работы в отрасли, татуируя новых клиентов и обучая нашу отобранную вручную команду художников.",
-								link: "",
-								linkText: "",
+								masterButton: <ButtonLoad btn={{body: "Посмотреть работы Юры", href:"/yura"}}/>
 							}}
 						/>
 					

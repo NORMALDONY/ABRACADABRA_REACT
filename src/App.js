@@ -14,6 +14,11 @@ import Correction from './pages/Correction/Correction';
 import CreateTattoo from './pages/CreateTattoo/CreateTattoo';
 import Permanent from './pages/Permanent/Permanent';
 import Design from './pages/Design/Design';
+import Piercing from './pages/Piercing/Piercing';
+import Brows from './pages/Brows/Brows';
+import Certificate from './pages/Certificate/Certificate';
+import Yura from './pages/Works/Yura/Yura';
+import Nastya from './pages/Works/Nastya/Nastya';
 
 function App() {
   return (
@@ -33,6 +38,13 @@ function App() {
 					<Route path="/createTattoo" element={<CreateTattoo />} />
 					<Route path="/permanent" element={<Permanent />} />
 					<Route path="/design" element={<Design />} />
+					<Route path="/piercing" element={<Piercing />} />
+					<Route path="/certificate" element={<Certificate />} />
+
+					<Route path="/brow" element={<Brows />} />
+					<Route path="/yura" element={<Yura />} />
+					<Route path="/nastya" element={<Nastya />} />
+
 
 				</Routes>
 

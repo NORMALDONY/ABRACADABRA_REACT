@@ -32,8 +32,8 @@ const Popup = ()=> {
 							</a>
 						</div>
 						<div className="popup__buttons">
-							<ButtonLoad btn={{body: "Уход", href: ""}} />
-							<ButtonLoad btn={{body: "Противопоказания", href: ""}} />
+							<ButtonLoad btn={{className: "btn-header",body: "Уход", href: ""}} />
+							<ButtonLoad btn={{className: "btn-header",body: "Противопоказания", href: ""}} />
 						</div>
 						</div>
 					</div>

@@ -39,8 +39,8 @@ const Price = ()=> {
 				</div>
 
 				<div className="price__button">
-					<ButtonLoad btn={{body: "Выбрать мастера", href: "/masters"}} />
-					<ButtonLoad btn={{body: "Связаться с нами", href: "#popup"}}/>
+					<ButtonLoad btn={{className: "btn-main",body: "Выбрать мастера", href: "/masters"}} />
+					<ButtonLoad btn={{className: "btn-main",body: "Связаться с нами", href: "#popup"}}/>
 				</div>
 		</div>
 	);

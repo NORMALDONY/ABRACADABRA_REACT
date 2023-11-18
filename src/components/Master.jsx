@@ -19,7 +19,7 @@ const Master = (props)=> {
 						</p>
 					</div>
 					<div className={classes.master__button}>
-						<ButtonLoad btn={{body: "Посмотреть работы Юры", href: ""}}/>
+						{props.master.masterButton}
 					</div>
 			</div>
 		</div>
