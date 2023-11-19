@@ -33,7 +33,10 @@ const Piercing = ()=> {
 							tile={{
 								href: "/brow",
 								src: Brow,
+								detail: "Подробнее",
+								text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, a. Eum, omnis mollitia, recusandae, enim doloremque modi ea ipsam aliquam laudantium tempore repudiandae eaque voluptatem numquam quo ex sed magni?",
 								body: "Пирсинг брови"
+								
 							}}
 						/>
 	
@@ -41,6 +44,8 @@ const Piercing = ()=> {
 							tile={{
 								href: "/ear",
 								src: Ear,
+								detail: "Подробнее",
+								text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, a. Eum, omnis mollitia, recusandae, enim doloremque modi ea ipsam aliquam laudantium tempore repudiandae eaque voluptatem numquam quo ex sed magni?",
 								body: "Пирсинг уха"
 							}}
 						/>
@@ -49,6 +54,8 @@ const Piercing = ()=> {
 							tile={{
 								href: "/lips",
 								src: Lips,
+								detail: "Подробнее",
+								text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, a. Eum, omnis mollitia, recusandae, enim doloremque modi ea ipsam aliquam laudantium tempore repudiandae eaque voluptatem numquam quo ex sed magni?",
 								body: "Пирсинг губ"
 							}}
 						/>
@@ -57,6 +64,8 @@ const Piercing = ()=> {
 							tile={{
 								href: "/microdermal",
 								src: MicroDermal,
+								detail: "Подробнее",
+								text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, a. Eum, omnis mollitia, recusandae, enim doloremque modi ea ipsam aliquam laudantium tempore repudiandae eaque voluptatem numquam quo ex sed magni?",
 								body: "Микродермал"
 							}}
 						/>
@@ -65,6 +74,8 @@ const Piercing = ()=> {
 							tile={{
 								href: "/navel",
 								src: Navel,
+								detail: "Подробнее",
+								text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, a. Eum, omnis mollitia, recusandae, enim doloremque modi ea ipsam aliquam laudantium tempore repudiandae eaque voluptatem numquam quo ex sed magni?",
 								body: "Пирсинг Пупка"
 							}}
 						/>
@@ -73,6 +84,8 @@ const Piercing = ()=> {
 							tile={{
 								href: "/nose",
 								src: Nose,
+								detail: "Подробнее",
+								text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, a. Eum, omnis mollitia, recusandae, enim doloremque modi ea ipsam aliquam laudantium tempore repudiandae eaque voluptatem numquam quo ex sed magni?",
 								body: "Пирсинг носа"
 							}}
 						/>
@@ -81,6 +94,8 @@ const Piercing = ()=> {
 							tile={{
 								href: "/intimate",
 								src: Intimate,
+								detail: "Подробнее",
+								text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, a. Eum, omnis mollitia, recusandae, enim doloremque modi ea ipsam aliquam laudantium tempore repudiandae eaque voluptatem numquam quo ex sed magni?",
 								body: "Интимный пирсинг"
 							}}
 						/>
@@ -89,6 +104,8 @@ const Piercing = ()=> {
 							tile={{
 								href: "/nipples",
 								src: Nipples,
+								detail: "Подробнее",
+								text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, a. Eum, omnis mollitia, recusandae, enim doloremque modi ea ipsam aliquam laudantium tempore repudiandae eaque voluptatem numquam quo ex sed magni?",
 								body: "Пирсинг сосков"
 							}}
 						/>
@@ -97,6 +114,8 @@ const Piercing = ()=> {
 							tile={{
 								href: "/tongue",
 								src: Tongue,
+								detail: "Подробнее",
+								text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, a. Eum, omnis mollitia, recusandae, enim doloremque modi ea ipsam aliquam laudantium tempore repudiandae eaque voluptatem numquam quo ex sed magni?",
 								body: "Пирсинг языка"
 							}}
 						/>

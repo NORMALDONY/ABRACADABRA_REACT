@@ -10,7 +10,6 @@ const Price = ()=> {
 	return (
 		<div className="price__container">
 				<h1 className="price__container__h1">Цены на тутуировки в ABRACADABRA</h1>
-				<h2 className="price__container__h2">Прайс-лист на услуги студии</h2>
 
 				<div className="price__top">
 					<h1 className="price__top__h1">Стоимость</h1>

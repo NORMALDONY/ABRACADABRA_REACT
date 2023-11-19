@@ -1,5 +1,5 @@
 import React from "react";
-import Master from "../../components/Master";
+import ServicesTile from "../../components/ServicesTile";
 import ButtonLoad from "../../components/UI/buttons/ButtonLoad/ButtonLoad";
 
 
@@ -35,37 +35,20 @@ const Masters = ()=> {
 					</div>
 				</div>
 					<div className="masters__profile">
-						<Master 
-							master= {{
-								src: Yura,
-								name: "Юра",
-								description: "Юрок — основатель, владелец и старший художник ABRACADABRA. Он опирается на почти двадцатилетний опыт работы в отрасли, татуируя новых клиентов и обучая нашу отобранную вручную команду художников.",
-								link: "",
-								linkText: "",
-								masterButton: <ButtonLoad btn={{body: "Посмотреть работы Юры", href:"/yura"}}/>
-							}}
-						/>
-						<Master 
-							master= {{
-								src: Nastya,
-								name: "Настя",
-								description: "Настя — основатель, владелец и старший художник ABRACADABRA. Он опирается на почти двадцатилетний опыт работы в отрасли, татуируя новых клиентов и обучая нашу отобранную вручную команду художников.",
-								link: "",
-								linkText: "",
-								masterButton: <ButtonLoad btn={{body: "Посмотреть работы Насти", href:"/nastya"}}/>
-							}}
-						/>
-						<Master 
-							master= {{
-								src: Yura,
-								name: "Юра",
-								description: "Юрок — основатель, владелец и старший художник ABRACADABRA. Он опирается на почти двадцатилетний опыт работы в отрасли, татуируя новых клиентов и обучая нашу отобранную вручную команду художников.",
-								link: "",
-								linkText: "",
-								masterButton: <ButtonLoad btn={{body: "Посмотреть работы Юры", href:"/yura"}}/>
-							}}
-						/>
-					
+					<ServicesTile 
+								tile={{src: Yura, 
+								body: "Юра",
+								detail: "Посмотреть работы", 
+								text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, a. Eum, omnis mollitia, recusandae, enim doloremque modi ea ipsam aliquam laudantium tempore repudiandae eaque voluptatem numquam quo ex sed magni?",
+								href: "/yura"}} 
+					/>
+						<ServicesTile 
+								tile={{src: Nastya, 
+								body: "Настя",
+								detail: "Посмотреть работы",
+								text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, a. Eum, omnis mollitia, recusandae, enim doloremque modi ea ipsam aliquam laudantium tempore repudiandae eaque voluptatem numquam quo ex sed magni?",
+								href: "/nastya"}} 
+					/>
 					</div>
 			</div>
 	);

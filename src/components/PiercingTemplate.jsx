@@ -6,7 +6,7 @@ const PiercingTemplate = (props)=> {
 	return(
 			<div className={classes.wrapper}>
 						<div className={classes.container}>
-							<h2 className={classes.titile}>{props.template.title}</h2>
+							<h2 className={classes.title}>{props.template.title}</h2>
 							<p className={classes.text}>{props.template.text}</p>
 						</div>
 						<div className={classes.image}>

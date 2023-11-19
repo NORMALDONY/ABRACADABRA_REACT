@@ -7,7 +7,6 @@ import Founders__1 from "./img__founders__1.jpg";
 import Founders__2 from "./img__founders__2.jpg";
 import Team from "./img__founders__3.jpg";
 import Studio from "./studio.jpg";
-import Fon from "./fon.webm";
 import Video__bg from "./video__bg.webm";
 
 const Home = ()=> {
