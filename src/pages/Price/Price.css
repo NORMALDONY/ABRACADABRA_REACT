@@ -1,5 +1,5 @@
 .price__container{
-	margin: 0px 150px 0px 150px;
+	margin: 200px 200px 200px 200px;
 }
 .price__container__h1{
 	font-size: clamp(2rem, 1.63rem + 1.975vw, 4rem);
@@ -48,46 +48,8 @@
 .price__button{
 	display: flex;
 	justify-content: space-between;
-
-	margin: 80px 80px;
 	align-items: center;
-	text-align: center;
-}
-
-.button__table__contact{
-	padding: 10px 10px;
-	margin: clamp(0.625rem, 0.625rem + 0vw, 0.625rem);
-  border: 2px solid #7c00be;
-  cursor: pointer;
-  position:relative;
-  overflow:hidden;
-}
-
-.button__table__contact:before {
-  content: "";
-  position: absolute;
-  height: 0;
-  width: 100%;
-  background : #7c00be;
-  left: 0;
-  bottom: 0;
-  transition: all .3s;
-  opacity: 1;
-}
-
-.button__table__contact:hover:before {
-  height: 100%;
-}
-.button__table__contact span{
-	font-size: clamp(0.875rem, 0.713rem + 0.864vw, 1.75rem);
-	color: #7c00be;
-	font-weight: bold;
-	position: relative;
-	padding: 0px 20px;
-}
-.button__table__contact:hover span{
-	font-size: clamp(0.875rem, 0.713rem + 0.864vw, 1.75rem);
-	color: #000;
+	margin-top: 200px;
 }
 
 .table{

@@ -11,7 +11,7 @@ import Video__bg from "./video__bg.webm";
 
 const Home = ()=> {
 	return (
-	<div>
+	<div className="home__wrapper">
 		<div className="intro">
 			<div className="intro__text">
 				<div className="intro__content">
@@ -52,7 +52,7 @@ const Home = ()=> {
 					<p>Наши тату-мастера специализируются на различных стилях. Мы стремимся создавать значимое искусство, которое доставит вам удовольствие на всю жизнь. Мы используем традиционные инструменты и новейшие технологии в нашем подходе к индивидуальным татуировкам.</p>
 				</div>
 				<div className="button__meet">
-					<ButtonLoad btn={{className: "btn-main",body: "Познакомьтесь с нашими художниками", href: ""}} />
+					<ButtonLoad btn={{className: "btn-main",body: "Познакомьтесь с нашими художниками", href: "/masters"}} />
 				</div>
 			</div>
 			<div className="img__team">

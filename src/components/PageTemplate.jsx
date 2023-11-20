@@ -6,18 +6,15 @@ import classes from "../styles/PageTemplate.module.css";
 const PageTemplate = (props)=> {
 	return(
 		<div className={classes.pageTemplate_container}>
-			<h1 className={classes.pageTemplate__title}>{props.pageTemplate.title}</h1>
 				<div className={classes.pageTemplate__main}>
 					<div className={classes.pageTemplate__image}>
 						<img src={props.pageTemplate.image} />
 					</div>
 					<div className={classes.pageTemplate__text}>
-						<p className={classes.pageTemplate__text__main}>{props.pageTemplate.textMain}</p>
+						<h1 className={classes.pageTemplate__text__main}>{props.pageTemplate.textMain}</h1>
 						<ul className={classes.pageTemplate__list}>
 							<li>{props.pageTemplate.list_1}</li>
 							<li>{props.pageTemplate.list_2}</li>
-							<li>{props.pageTemplate.list_3}</li>
-							<li>{props.pageTemplate.list_4}</li>
 						</ul> 
 					</div>
 				</div>
@@ -29,9 +26,9 @@ const PageTemplate = (props)=> {
 					<p className={classes.pageTemplate__text__bot}>{props.pageTemplate.textBot}</p>
 				</div>
 				<div className={classes.pageTemplate__buttons}>
-					<ButtonLoad btn={{body: "Выбрать мастера", href: "/masters"}}/>
-					<ButtonLoad btn={{body: "Узнать цену", href: "/price"}}/>
-					<ButtonLoad btn={{body: "Связаться с нами", href: "#popup"}}/>
+					<ButtonLoad btn={{className: "btn-main",body: "Выбрать мастера", href: "/masters"}}/>
+					<ButtonLoad btn={{className: "btn-main",body: "Узнать цену", href: "/price"}}/>
+					<ButtonLoad btn={{className: "btn-main",body: "Связаться с нами", href: "#popup"}}/>
 				</div>
 			</div>
 	);

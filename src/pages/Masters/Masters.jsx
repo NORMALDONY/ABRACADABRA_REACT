@@ -12,13 +12,6 @@ import "./Masters.css"
 const Masters = ()=> {
 	return (
 		<div className="masters">
-				<div className="master__top">
-					<h1>
-						Наш опыт, ваше видение: 
-						профессиональные, талантливые, 
-						дружелюбные тату-мастера
-					</h1>
-				</div>
 				<div className="master__middle">
 					<div className="master__team__text">
 						<h1>

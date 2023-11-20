@@ -72,7 +72,7 @@ const Brows = ()=> {
 						форму онлайн записи. 
 					</p>
 					<div className="brows__middle__button">
-					 <ButtonLoad btn={{body: "Получить консультацию", href: "#popup"}}/>
+					 <ButtonLoad btn={{className: "btn-main",body: "Получить консультацию", href: "#popup"}}/>
 					</div>
 				</div>
 					<WarningCare />

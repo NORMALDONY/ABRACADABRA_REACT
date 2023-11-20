@@ -2,7 +2,7 @@ import React from "react";
 
 import classes from "../styles/Footer.module.css"
 
-import LogoABR from "../img/logo_ABR.png"
+import LogoABR from "../img/logo_ABR_F.png"
 import Vk from "../img/vk.png"
 import Inst from "../img/inst.png"
 

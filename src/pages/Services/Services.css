@@ -9,8 +9,7 @@
 }
 
 .services{
-	color: #fff;
-	text-align: center;
+	margin: 200px 0px 200px 0px;
 }
 .services h1{
 	font-size: clamp(2rem, 1.63rem + 1.975vw, 4rem);

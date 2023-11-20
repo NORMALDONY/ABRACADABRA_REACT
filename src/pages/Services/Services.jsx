@@ -13,7 +13,6 @@ import Certificate from "./Certificate.jpg"
 const Services = ()=> {
 	return (
 		<div className="services">
-					<h1>Услуги студии ABRACADABRA</h1>
 			<div className="services__container">
 				<div className="content__container">
 
